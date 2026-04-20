@@ -1,0 +1,18 @@
+/* Make See More button match home.html buttons */
+.see-more-btn {
+  display: inline-block;
+  background: #1458ab;
+  color: #fff;
+  font-size: 18px;
+  padding: 12px 30px;
+  border-radius: 6px;
+  font-weight: 500;
+  border: 2px solid #1458ab;
+  transition: all 0.3s ease;
+}
+
+.see-more-btn:hover {
+  background: none;
+  color: #1458ab;
+  transform: translateY(-2px);
+}
